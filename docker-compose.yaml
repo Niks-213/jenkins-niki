@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  nikita-ui-code: # name of app change it 
+    image: nikita-web:appv$BUILD_NUMBER
+    build:
+      context: . # location of dockerfile 
+      dockerfile: Dockerfile # name of dockerfile 
+    container_name: nikita-web-c1 
+    ports:
+      - 1030:80 # left side port b/w 1024 - 5000 
