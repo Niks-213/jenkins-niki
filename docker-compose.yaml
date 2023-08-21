@@ -5,6 +5,6 @@ services:
     build:
       context: . # location of dockerfile 
       dockerfile: Dockerfile # name of dockerfile 
-    container_name: nikita-web-c1 
+    container_name: nikita-web-c2 
     ports:
-      - 1030:80 # left side port b/w 1024 - 5000 
+      - 1031:80 # left side port b/w 1024 - 5000 
